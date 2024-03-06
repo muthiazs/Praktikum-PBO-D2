@@ -7,7 +7,7 @@ NIM : 24060122130071
 Jadi, secara konsep, meskipun program tersebut mungkin berfungsi, penggunaan asersi untuk validasi input seperti ini tidak dianggap sebagai praktik terbaik. Lebih baik menggunakan pernyataan if dan penanganan kesalahan yang tepat.
 
 2.*Ketika eksepsi terjadi, apakah baris 12 pada AngkaSial.java di atas dieksekusi?* 
-- ya pada saat cobaangka(10) dia dieksekusi karena 10 bukan 13 
+-ya pada saat cobaangka(10) dia dieksekusi karena 10 bukan 13 
 
 3.*Apakah baris 21 pada AngkaSial.java di atas dieksekusi?*
 -iya dieksekusi ketika terjadi eksepsi sataat mencoba angka 13 , dia akan mengeluarkan pesan dari file exception dan sekaligus yang didalam file yaitu hati2 memasukkan angka.

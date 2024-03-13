@@ -12,7 +12,7 @@ public class Segitiga extends Poligon {
     }
 
     public double hitungLuas(){
-        return alas * tinggi;
+        return (alas * tinggi) / 2;
     }
 
     public void printInfo(){

@@ -14,12 +14,17 @@ public class TestSenjata {
         Senjata ak47 = new Senjata("TAR");
         Senjata m16 = new Senjata("DOR");
 
-        // Uji Coba Method Kelas Senjata
-        System.out.print("AK47 menembak 3x: "); ak47.menembak(3);
-        System.out.print("M16 menembak 1x: "); m16.menembak(1);
-
-        System.out.println("AK47 menusuk: " + ak47.menusuk());
-        ak47.pasangBayonet();
-        System.out.println("AK47 menusuk: " + ak47.menusuk());
+        KontrolSenjata kontrolAK47 = new KontrolSenjata(ak47);
+        KontrolSenjata kontrolm16 = new KontrolSenjata(m16);
+        
+        kontrolAK47.menembak(2);
+        kontrolAK47.isiPeluru(3);
+        kontrolAK47.menembak(5);
+        
+        System.out.println("============================");
+        
+        kontrolm16.menembak(1);
+        kontrolm16.isiPeluru(5);
+        kontrolm16.menembak(2);
     }
 }

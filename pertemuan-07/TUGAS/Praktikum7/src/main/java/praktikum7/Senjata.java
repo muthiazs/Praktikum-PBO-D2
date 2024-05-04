@@ -9,7 +9,7 @@ package praktikum7;
  * @author ACER
  */
 public class Senjata {
-    private String bunyi;
+    String bunyi;
     private boolean menusuk;
 
     public Senjata(String bunyi){
@@ -17,7 +17,7 @@ public class Senjata {
         this.menusuk = false;
     }
 
-    private String getBunyi(){
+    String getBunyi(){
         return bunyi;
     }
 
@@ -25,11 +25,11 @@ public class Senjata {
         this.bunyi = bunyi;
     }
 
-    private boolean isMenusuk(){
+    boolean isMenusuk(){
         return menusuk;
     }
 
-    private void setMenusuk(boolean menusuk){
+    void setMenusuk(boolean menusuk){
         this.menusuk = menusuk;
     }
 
@@ -51,6 +51,14 @@ public class Senjata {
         } else {
             return "Gagal, belum di pasang bayonet nya";
         }
+    }
+
+    String getPeluru() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    void setPeluru(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
 }

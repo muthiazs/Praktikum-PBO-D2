@@ -9,7 +9,7 @@ package praktikum7;
  * @author ACER
  */
 public class KontrolSenjata {
-    private final Senjata senjata;
+     private final Senjata senjata;
     
     public KontrolSenjata(Senjata s) {
         senjata = s;

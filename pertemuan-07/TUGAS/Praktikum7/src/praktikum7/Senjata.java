@@ -61,5 +61,4 @@ public class Senjata {
     void setPeluru(int string) {
        this.peluru = peluru; 
     }
-
 }
